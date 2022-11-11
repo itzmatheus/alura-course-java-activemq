@@ -17,8 +17,14 @@ public class Consumer {
         Destination fila = (Destination) context.lookup("filaFinanceiro");
         MessageConsumer consumer = session.createConsumer(fila);
 
-        Message message = consumer.receive();
-        System.out.println("Receiving msg: " + message);
+        consumer.setMessageListener(message -> {
+            TextMessage textMessage = (TextMessage) message;
+            try {
+                System.out.println(textMessage.getText());
+            } catch (JMSException e) {
+                System.out.println(message);
+            }
+        });
         new Scanner(System.in).nextLine();
 
         session.close();
