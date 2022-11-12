@@ -53,16 +53,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Consumer" />
+  <component name="RunManager" selected="Application.QueueConsumer">
+    <configuration name="QueueConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueConsumer" />
       <module name="java-activemq" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Producer" />
+    <configuration name="QueueProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueProducer" />
       <module name="java-activemq" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,8 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Producer" />
-        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.QueueProducer" />
+        <item itemvalue="Application.QueueConsumer" />
       </list>
     </recent_temporary>
   </component>

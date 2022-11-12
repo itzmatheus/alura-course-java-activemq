@@ -3,7 +3,7 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import java.util.Scanner;
 
-public class Consumer {
+public class QueueConsumer {
 
     public static void main(String[] args) throws NamingException, JMSException {
 

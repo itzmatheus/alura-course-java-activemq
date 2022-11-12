@@ -1,9 +1,8 @@
 import javax.jms.*;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import java.util.Scanner;
 
-public class Producer {
+public class QueueProducer {
 
     public static void main(String[] args) throws NamingException, JMSException {
 
