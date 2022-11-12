@@ -25,5 +25,32 @@ docker run --name alura-camel-activemq -p 61616:61616 -p 8161:8161 rmohr/activem
 
 #### Examples:
 
-1. Consume Simple Queues
-   1. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueConsumer.java
+##### Queues Consumers
+
+1. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueConsumer.java
+   - Simple queue consumer;
+2. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueConsumerDLQ.java
+   - DLQ queue consumer;
+
+##### Queues Producers
+
+1. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueProducer.java
+   - Simple queue producer;
+
+##### Topics
+
+1. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/TopicProducer.java
+   - Simple topic publisher
+2. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/TopicProducerPublishObj.java
+   - Publisher topic with obj serializable
+3. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/TopicProducerSelector.java
+   - Topic publisher with selector
+
+##### Subscriptions
+
+1. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/TopicConsumer.java
+   - Simple topic subscription;
+2. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/TopicConsumerObj.java
+   - Simple topic subscription with obj
+3. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/TopicConsumerStockSelector.java
+   - Topic subscription filtering with selector
