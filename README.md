@@ -17,6 +17,7 @@ docker run --name alura-camel-activemq -p 61616:61616 -p 8161:8161 rmohr/activem
 - [x] By default, AMQ try send 6x times to the Subscription, if failed, send to queue DLQ (Dead Letter Queue);
 - [x] By default Queue messages only send messages to consumers actived.
 - [x] By default Topic messages only send messages to Subscription activated, or you can create a durable signature and the MOM will wait Subscriber activate to send message;
+- [x] You can configure AMQ for organize tasks in queue based on order priority [0-9] 0 low and 9 high needs;
 
 #### Flow JMS Protocols in ActiveMQ
 
