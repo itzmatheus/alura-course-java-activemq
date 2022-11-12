@@ -10,12 +10,14 @@ public class TopicConsumer {
         var context = new InitialContext();
         ConnectionFactory connectionFactory = (ConnectionFactory) context.lookup("ConnectionFactory");
         Connection connection = connectionFactory.createConnection();
+        connection.setClientID("stock");
+
         connection.start();
 
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
 
-        Destination topic = (Destination) context.lookup("topicoLoja");
-        MessageConsumer consumer = session.createConsumer(topic);
+        Topic topic = (Topic) context.lookup("topicoLoja");
+        MessageConsumer consumer = session.createDurableSubscriber(topic, "subscriber");
 
         consumer.setMessageListener(message -> {
             TextMessage textMessage = (TextMessage) message;
