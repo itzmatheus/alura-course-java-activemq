@@ -28,14 +28,18 @@ docker run --name alura-camel-activemq -p 61616:61616 -p 8161:8161 rmohr/activem
 ##### Queues Consumers
 
 1. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueConsumer.java
-   - Simple queue consumer;
+   - Simple queue consumer
 2. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueConsumerDLQ.java
-   - DLQ queue consumer;
+   - DLQ queue consumer
+3. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueConsumerTransaction.java
+   - Queue consumer with transaction
 
 ##### Queues Producers
 
 1. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueProducer.java
-   - Simple queue producer;
+   - Simple queue producer
+2. https://github.com/itzmatheus/alura-course-java-activemq/blob/main/src/main/java/QueueProducerWithPriority.java
+   - Queue producer with priority
 
 ##### Topics
 
