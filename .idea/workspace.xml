@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="735273f1-7ed8-4606-825d-3fdd335f9551" name="Changes" comment="" />
+    <list default="true" id="735273f1-7ed8-4606-825d-3fdd335f9551" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueueConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueueConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueueProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueueProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jndi.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jndi.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueConsumer">
+  <component name="RunManager" selected="Application.TopicProducer">
     <configuration name="QueueConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueueConsumer" />
       <module name="java-activemq" />
@@ -68,8 +72,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopicConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopicConsumer" />
+      <module name="java-activemq" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopicProducer" />
+      <module name="java-activemq" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopicProducer" />
+        <item itemvalue="Application.TopicConsumer" />
         <item itemvalue="Application.QueueProducer" />
         <item itemvalue="Application.QueueConsumer" />
       </list>

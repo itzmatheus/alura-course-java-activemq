@@ -9,6 +9,7 @@ docker run --name alura-camel-activemq -p 61616:61616 -p 8161:8161 rmohr/activem
 2. Login: admin and password: admin
 3. Get in Queues menu and create net queue: fila.financeiro
 4. Get in Topics menu and create new topic: topico.loja
+
 #### Flow JMS Protocols in ActiveMQ
 
 ![](imagens/jms-comp.png)
