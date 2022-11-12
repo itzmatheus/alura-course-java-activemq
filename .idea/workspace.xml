@@ -5,140 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="735273f1-7ed8-4606-825d-3fdd335f9551" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/BytesMessage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/Connection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/ConnectionConsumer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/ConnectionFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/ConnectionMetaData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/DeliveryMode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/Destination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/ExceptionListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/IllegalStateException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/InvalidClientIDException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/InvalidDestinationException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/InvalidSelectorException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/JMSException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/JMSSecurityException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/MapMessage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/Message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/MessageConsumer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/MessageEOFException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/MessageFormatException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/MessageListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/MessageNotReadableException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/MessageNotWriteableException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/MessageProducer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/ObjectMessage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/Queue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/QueueBrowser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/QueueConnection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/QueueConnectionFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/QueueReceiver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/QueueRequestor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/QueueSender.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/QueueSession.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/ResourceAllocationException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/ServerSession.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/ServerSessionPool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/Session.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/StreamMessage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TemporaryQueue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TemporaryTopic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TextMessage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/Topic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TopicConnection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TopicConnectionFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TopicPublisher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TopicRequestor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TopicSession.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TopicSubscriber.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TransactionInProgressException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/TransactionRolledBackException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XAConnection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XAConnectionFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XAQueueConnection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XAQueueConnectionFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XAQueueSession.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XASession.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XATopicConnection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XATopicConnectionFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/XATopicSession.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/javax/jms/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/packages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/doc/api/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/lib/jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/BytesMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/ConnectionConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/ConnectionMetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/DeliveryMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/Destination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/ExceptionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/IllegalStateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/InvalidClientIDException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/InvalidDestinationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/InvalidSelectorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/JMSException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/JMSSecurityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/MapMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/MessageConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/MessageEOFException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/MessageFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/MessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/MessageNotReadableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/MessageNotWriteableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/MessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/ObjectMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/QueueBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/QueueConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/QueueConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/QueueReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/QueueRequestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/QueueSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/QueueSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/ResourceAllocationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/ServerSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/ServerSessionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/StreamMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TemporaryQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TemporaryTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TextMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TopicConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TopicConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TopicPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TopicRequestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TopicSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TopicSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TransactionInProgressException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/TransactionRolledBackException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XAConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XAConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XAQueueConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XAQueueConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XAQueueSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XASession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XATopicConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XATopicConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jms1.1/src/share/javax/jms/XATopicSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,8 +50,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Consumer">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Consumer" />
       <module name="java-activemq" />
@@ -192,8 +62,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Producer" />
+      <module name="java-activemq" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Producer" />
         <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
