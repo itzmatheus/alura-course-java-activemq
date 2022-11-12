@@ -14,8 +14,8 @@ public class QueueConsumer {
 
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
 
-        Destination fila = (Destination) context.lookup("filaFinanceiro");
-        MessageConsumer consumer = session.createConsumer(fila);
+        Destination queue = (Destination) context.lookup("filaFinanceiro");
+        MessageConsumer consumer = session.createConsumer(queue);
 
         consumer.setMessageListener(message -> {
             TextMessage textMessage = (TextMessage) message;

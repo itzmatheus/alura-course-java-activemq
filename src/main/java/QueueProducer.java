@@ -13,9 +13,9 @@ public class QueueProducer {
 
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
 
-        Destination fila = (Destination) context.lookup("filaFinanceiro");
+        Destination queue = (Destination) context.lookup("filaFinanceiro");
 
-        MessageProducer producer = session.createProducer(fila);
+        MessageProducer producer = session.createProducer(queue);
 
 
         for (int i = 0; i < 1000; i++) {
